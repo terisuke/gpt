@@ -1,16 +1,21 @@
-# gpt
+# エセGPT
 
-A new Flutter project.
+OpenAI API(GPT-4-turbo)を用いた、Chatアプリ。
 
-## Getting Started
+## 概要
 
-This project is a starting point for a Flutter application.
+OpenAI APIを用いて、画面下部のテキストフィールドに書いた文章に対応した回答を生成します。
 
-A few resources to get you started if this is your first Flutter project:
+## 特徴
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ListViewを用いて、ChatGPTのようにこれまでの流れをスレッドで見ることができます
+- テキストの左側にアイコンを置くことで、自分の発言かAIの生成した回答なのかを視覚的に見ることができます。
+- 回答した後、自動的にテキストフィールドを空白に戻し、次の回答を書きやすくしています。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 始め方
+
+シミュレーターを起動してflutter runするだけ！簡単でしょ？
+
+### 必要条件
+
+事前にXcodeもしくはAndroidStudio、そしてVSCodeかCursorでFlutterの環境設定を行ってから使用することをお勧めします。加えてルートディレクトリにenvファイルを作り、apiKeyとしてOpenAI apiKeyを入れてください。
